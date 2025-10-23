@@ -1,34 +1,35 @@
-Vad är pull repektive push?
-Svar: Push= skicka upp mina ändringar från datorn till GitHub.
-      Pull= Hämta ner senaste ändringar. 
+Vad är pull respektive push?
+Svar: 
+Push = Skicka upp mina ändringar från datorn till GitHub.  
+Pull = Hämta ner senaste ändringar från GitHub till datorn.  
 Exempel: git push & git pull
- 
+
 När använder man log respektive status?
-Svar: Status= Visar vad som är ändrat just nu.
-      Log= Visar historik över tidigare commits.
+Svar: 
+Status = Visar vad som är ändrat just nu.  
+Log = Visar historik över tidigare commits.  
 Exempel: git status & git log
 
 Vad är en Git branch och varför är de viktiga?
-Svar:En branch är en egen gren av projektet.
+Svar: 
+En branch är en egen gren av projektet.  
 Man kan jobba i den utan att förstöra huvudkoden.
 
 Varför viktigt:
-Testa saker säkert
-Samarbeta utan krock
-Lätt att gå tillbaka
+- Testa saker säkert  
+- Samarbeta utan krock  
+- Lätt att gå tillbaka
+
 Exempel: git branch ny-branch & git checkout ny-branch
 
-Det finns flera sätt att rulla tillbaka koden till ett tidigare tillstånd. Förklara skillnaden och motivera när man skulle använda den ena eller andra metoden. Ge exempel på de kommandon du använder för att göra detta och vissa att det fungerar, vilken output du fick från git-kommandona.
-Svar:Sätt att rulla tillbaka koden
-
-checkout → titta på gammal version (ändrar inget permanent)
-
-revert → ångra en commit men spara historiken
-
-reset → backa helt och ta bort commits
+Det finns flera sätt att rulla tillbaka koden till ett tidigare tillstånd.
+Svar: 
+Sätt att rulla tillbaka koden:
+- checkout = titta på gammal version (ändrar inget permanent)  
+- revert = ångra en commit men spara historiken  
+- reset = backa helt och ta bort commits
 
 Exempel:
-
-git checkout <commit-id>
-git revert <commit-id>
+git checkout <commit-id>  
+git revert <commit-id>  
 git reset --hard <commit-id>
